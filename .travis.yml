@@ -47,4 +47,3 @@ deploy:
   on:
     tags: true
     repo: DerThorsten/py_tools
-    python: 3.6
