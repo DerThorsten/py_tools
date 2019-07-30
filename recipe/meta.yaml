@@ -32,7 +32,7 @@ test:
     - py_tools
 
 about:
-  home: https://github.com/JohnDoe/py_tools
+  home: https://github.com/DerThorsten/py_tools
   license: MIT
   license_family: MIT
   
@@ -40,7 +40,7 @@ about:
   summary: 'py_tools is a modern python library'
   description: 'py_tools is a modern python library'
   documentation_url: https://readthedocs.org/projects/py_tools/
-  dev_url: https://github.com/JohnDoe/py_tools
+  dev_url: https://github.com/DerThorsten/py_tools
 
 extra:
   recipe-maintainers:
