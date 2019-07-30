@@ -1,0 +1,49 @@
+
+{% set data = load_setup_py_data() %}
+
+package:
+  name: py_tools
+  
+  version: {{ data['version'] }}
+  
+source:
+  path: ../
+
+
+build:
+  noarch: python
+  number: 0
+  
+  script: "{{ PYTHON }} -m pip install --no-deps --ignore-installed ."
+  
+requirements:
+  host:
+    - python
+  run:
+    - python >=3.6
+    # dependencies are defined in setup.py
+    
+    {% for dep in data['install_requires'] %}
+    - {{ dep.lower() }}
+    {% endfor %}
+    
+test:
+  imports:
+    - py_tools
+
+about:
+  home: https://github.com/JohnDoe/py_tools
+  license: MIT
+  license_family: MIT
+  
+  license_file: ../LICENSE.txt
+  summary: 'py_tools is a modern python library'
+  description: 'py_tools is a modern python library'
+  documentation_url: https://readthedocs.org/projects/py_tools/
+  dev_url: https://github.com/JohnDoe/py_tools
+
+extra:
+  recipe-maintainers:
+    - Thorsten Beier
+
+

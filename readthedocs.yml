@@ -1,0 +1,2 @@
+conda:
+  file: py_tools-dev-requirements.yml
