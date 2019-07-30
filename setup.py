@@ -56,6 +56,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/JohnDoe/py_tools',
-    version="version='1.11.2'",
+    version='0.1.0',
     zip_safe=False,
 )
