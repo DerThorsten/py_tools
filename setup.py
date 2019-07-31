@@ -50,7 +50,7 @@ setup(
     long_description=readme,
     include_package_data=True,
     keywords='py_tools',
-    name='py-tools',
+    name='my-py-tools',
     packages=find_packages(),
     setup_requires=setup_requirements,
     test_suite='tests',
