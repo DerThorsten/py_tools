@@ -9,9 +9,6 @@ py_tools
 .. image:: https://img.shields.io/travis/DerThorsten/py_tools.svg
         :target: https://travis-ci.org/DerThorsten/py_tools
 
-.. image:: https://travis-ci.org/DerThorsten/py_tools.svg?branch=master
-    :target: https://travis-ci.org/DerThorsten/py_tools
-
 .. image:: https://circleci.com/gh/DerThorsten/py_tools/tree/master.svg?style=svg
     :target: https://circleci.com/gh/DerThorsten/py_tools/tree/master
 
