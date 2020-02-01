@@ -56,6 +56,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/DerThorsten/py_tools',
-    version='0.1.200',
+    version='0.1.201',
     zip_safe=False,
 )
