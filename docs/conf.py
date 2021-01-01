@@ -108,7 +108,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'py_tools'
-copyright = u"2020, Thorsten Beier"
+copyright = u"2021, Thorsten Beier"
 author = u"Thorsten Beier"
 
 # The version info for the project you're documenting, acts as replacement
